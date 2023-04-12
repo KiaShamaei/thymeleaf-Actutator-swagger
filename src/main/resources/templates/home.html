@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title> home now test Thymeleaf</title>
+    <link rel="stylesheet" th:href="@{/css/home.css}">
+</head>
+<body>
+<h1>this is a test </h1>
+<p th:text="'date of now : '+ ${date}"  class="now"></p>
+
+</body>
+</html>
