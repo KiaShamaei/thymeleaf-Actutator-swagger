@@ -1,0 +1,22 @@
+management:
+   endpoint:
+     health:
+       show-details: always
+   endpoints:
+     web:
+      exposure:
+        include: '*'
+   info:
+      env:
+       enabled: true
+info:
+  app:
+    name: "thymeleaf - actuator"
+    version: "0.1.12"
+    author: "kia"
+
+springdoc:
+  swagger-ui:
+    path: "ui"
+  api-docs:
+    path: "/docs"
